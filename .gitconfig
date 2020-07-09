@@ -1,0 +1,13 @@
+[user]
+	name = Ruan Souza
+	email = ruanruan43@gmail.com
+[alias]
+    pud = "!f() { \
+        branch=$1; \
+        test -z $branch && branch=HEAD; \
+        git push -f deploy $branch:master; \
+    }; f"
+	l = log --decorate --all --oneline --graph
+[core]
+	excludesFile = /home/ruan/.gitignore
+	filemode = false

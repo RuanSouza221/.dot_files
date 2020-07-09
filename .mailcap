@@ -1,0 +1,6 @@
+text/html; firefox '%s' &; test=test -n "$DISPLAY"; needsterminal;
+text/html; links -dump %s; nametemplate=%s.html; copiousoutput;
+image/*; feh %s;
+audio/*; mocp -n %s;
+video/*; mplayer %s;
+application/pdf; evince %s;

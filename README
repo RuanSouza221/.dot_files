@@ -1,0 +1,38 @@
+PRESET DE RUAN SOUZA
+---------------------------------------
+
+Aqui você encontrará configs:
+
+.bashrc e .bash_prompt
+----------------------------------------
+| configurados para usar LESS=-R e para
+| exibir informações do git quando 
+| estiver em um repositorio.
+
+.mutt e .mailcap
+---------------------------------------
+| está com configurações para usar
+| multiplas contas
+| e usar links e firefox para abrir html
+| feh para abrir imagens
+| mocp para abrir audio, mplayer para video
+| e evince para PDFs
+
+.nanorc
+--------------------------------------
+| o mais importante aqui é o uso de 4 
+| espaços para tab e numeração de linha
+| e ^S para salvar
+
+.gitconfig e gitignore
+-------------------------------------
+| configurados para ignorar arquivos do
+| PhpStorm, com alguns alias para log e
+| deploy e ignorar permissões de arquivo
+
+.config
+-------------------------------------
+| algumas customizações pessoais do i3,
+| i3status, redshift, compton e newsboat
+| config do dunst vem derivada desse repositorio:
+| https://github.com/RodgerOliver/dotfiles/tree/master/.config/dunst
