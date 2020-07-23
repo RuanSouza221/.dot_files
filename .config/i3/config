@@ -165,11 +165,11 @@ bindsym $mod+shift+b          exec xrandr --output HDMI1 --off
 bindsym $mod+shift+p          exec pavucontrol
 bindsym $mod+p                exec xfce4-terminal --drop-down
 bindsym $mod+shift+f          exec /home/ruan/.local/coach/csftp
-bindsym $mod+shift+m          exec xfce4-terminal -e "/home/ruan/.local/coach/cmysql"
+bindsym $mod+shift+m          exec xfce4-terminal -e "mysql"
 bindsym $mod+shift+s          exec xfce4-terminal --working-directory "/home/ruan/coach/plataforma"
 bindsym $mod+shift+d          exec /home/ruan/.local/coach/clog
 bindsym $mod+Control+f        exec xfce4-terminal -e "nano /home/ruan/.local/coach/csftp"
-bindsym $mod+Control+m        exec xfce4-terminal -e "nano /home/ruan/.local/coach/cmysql"
+bindsym $mod+Control+m        exec xfce4-terminal -e "/home/ruan/.local/coach/cmysql"
 
 #multi-monitores
 workspace 1 output eDP1
