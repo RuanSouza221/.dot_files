@@ -193,3 +193,4 @@ exec --no-startup-id redshift
 exec_always --no-startup-id feh --bg-scale /home/ruan/Pictures/papel_parede.jpg
 exec --no-startup-id xbacklight -set 7
 exec --no-startup-id /home/ruan/.local/utilitarios/agua.sh
+exec --no-startup-id /home/ruan/.local/coach/ccurl
